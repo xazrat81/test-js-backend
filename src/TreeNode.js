@@ -1,9 +1,9 @@
 class TreeNode {
 
-    constructor(value, parent) {
+    constructor(value, depth) {
         this.value = value
         this.children = []
-        this.parent = parent
+        this.depth = depth
     }
 }
 
