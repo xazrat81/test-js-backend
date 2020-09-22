@@ -1,4 +1,5 @@
 const TreeNode = require('./TreeNode')
+const axios = require('axios')
 
 async function buildTree(numbersArray) {
   const flatArray = await makeFlatArray(numbersArray)

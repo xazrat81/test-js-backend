@@ -1,7 +1,6 @@
 const express = require('express'), 
       app = express(),
-      cors = require('cors'),
-      axios = require('axios')
+      cors = require('cors')
 const fs = require('fs')
 const { buildTree, makeArrayFromNumber } = require('./methods')
 
